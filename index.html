@@ -1,21 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang='pt-br'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Ferramentas do Alemão</title>
-
-    <!-- Meta Tags para SEO -->
-    <meta name="description" content="Ferramentas do Alemão - Sua loja completa de ferramentas e materiais para construção">
-    <meta name="keywords" content="ferramentas, construção, ferragens, materiais de construção, martelo, serra, furadeira">
-    <meta name="author" content="Seu Nome">
-    <meta property="og:title" content="Ferramentas do Alemão">
-    <meta property="og:description" content="Sua loja completa de ferramentas e materiais para construção">
-    <meta property="og:image" content="static/imagens/logo.jpg">
-    <meta property="og:url" content="https://schaedler6.github.io/ferragens-do-alemao/">
+    <meta name='description' content='Ferramentas do Alemão - Sua loja completa de ferramentas e materiais para construção'>
+    <meta name='keywords' content='ferramentas, construção, ferragens, materiais de construção, martelo, serra, furadeira'>
+    <meta name='author' content='Seu Nome'>
+    <meta property='og:title' content='Ferramentas do Alemão'>
+    <meta property='og:description' content='Sua loja completa de ferramentas e materiais para construção'>
+    <meta property='og:image' content='static/imagens/logo.jpg'>
+    <meta property='og:url' content='https://schaedler6.github.io/ferragens-do-alemao/'>
+    <link rel='stylesheet' href='static/css/style.css'>
 </head>
 <body>
-    <h1>Bem-vindo à Ferramentas do Alemão</h1>
-    <p>Seu site de ferramentas e materiais para construção!</p>
+    <header>
+        <h1>Ferramentas do Alemão</h1>
+        <nav>
+            <ul>
+                <li><a href='#'>Início</a></li>
+                <li><a href='#'>Produtos</a></li>
+                <li><a href='#'>Clientes</a></li>
+                <li><a href='#'>Pedidos</a></li>
+                <li><a href='#'>Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class='banner'>
+        <h2>Os Melhores Produtos para sua Construção!</h2>
+        <p>Encontre aqui ferramentas de qualidade e os melhores preços.</p>
+        <a href='#' class='btn'>Ver Produtos</a>
+    </section>
+
+    <section class='produtos'>
+        <h2>Produtos em Destaque</h2>
+        <div class='produtos-grid'>
+            <div class='produto-card'>
+                <img src='static/imagens/kit_black_jack.jpeg' alt='Kit Black Jack'>
+                <h3>Furadeira de Impacto Profissional</h3>
+                <p><strong>R$ 799,99</strong></p>
+                <button class='btn comprar'>Comprar</button>
+            </div>
+
+            <div class='produto-card'>
+                <img src='static/imagens/kit_chave_fenda_premium.jpeg' alt='Kit Chaves Premium'>
+                <h3>Kit Chaves de Fenda Premium</h3>
+                <p><strong>R$ 299,99</strong></p>
+                <button class='btn comprar'>Comprar</button>
+            </div>
+
+            <div class='produto-card'>
+                <img src='static/imagens/serra_circular_industrial.jpeg' alt='Serra Circular'>
+                <h3>Serra Circular Industrial</h3>
+                <p><strong>R$ 1.299,99</strong></p>
+                <button class='btn comprar'>Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ferramentas do Alemão. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src='static/js/script.js'></script>
 </body>
 </html>
