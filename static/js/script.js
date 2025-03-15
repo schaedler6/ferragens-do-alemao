@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     botoesComprar.forEach(botao => {
         botao.addEventListener('click', function () {
-            alert('Produto adicionado ao carrinho!');
+            alert(Produto adicionado ao carrinho: );
         });
     });
 });
